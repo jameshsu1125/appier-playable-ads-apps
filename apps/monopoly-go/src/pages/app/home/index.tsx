@@ -7,7 +7,7 @@ const Home = memo(() => {
 
   return (
     <div className='Home'>
-      <HomeContext.Provider value={[state, setState]}>app</HomeContext.Provider>
+      <HomeContext.Provider value={[state, setState]}>Monopoly Go </HomeContext.Provider>
     </div>
   );
 });
