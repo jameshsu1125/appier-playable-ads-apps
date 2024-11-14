@@ -1,19 +1,25 @@
-import preact from "@preact/preset-vite";
-import { resolve } from "path";
-import { defineConfig } from "vite";
+import preact from '@preact/preset-vite';
+import { resolve } from 'path';
+import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "./",
+  base: './',
   build: {
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        index: resolve(__dirname, 'index.html'),
+        iframe: resolve(__dirname, 'iframe.html'),
+      },
+    },
   },
   css: {
     preprocessorOptions: {
       less: {
-        math: "always",
+        math: 'always',
         globalVars: {
-          mainColor: "red",
+          mainColor: 'red',
         },
       },
     },
@@ -21,7 +27,7 @@ export default defineConfig({
   plugins: [preact()],
   resolve: {
     alias: {
-      "@": resolve(__dirname, "src"),
+      '@': resolve(__dirname, 'src'),
     },
   },
   server: {
