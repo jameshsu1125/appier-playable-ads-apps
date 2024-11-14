@@ -1,5 +1,5 @@
 import { render } from "preact";
-import "./index.css";
-import { App } from "./app.tsx";
+import Home from "./home/index.tsx";
+import "./index.less";
 
-render(<App />, document.getElementById("app")!);
+render(<Home />, document.getElementById("app")!);
