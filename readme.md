@@ -12,7 +12,7 @@
   </a>
   <h3 align="center">Appier</h3>
   <p align="center">
-    playable-ad  
+    Appier playable Ads workspace
   </p>
 </p>
 
@@ -65,7 +65,7 @@ pnpm dev:https
   - workspace for monorepo management
 - React
   - frontend UI library
-  - React-related ecosystem libs: `react-router-dom`, `react-hook-form`, `react-query`.
+  - React-related ecosystem libs.
 - Vite
   - the front end bundler
 - Tailwind CSS
