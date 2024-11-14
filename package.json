@@ -1,0 +1,13 @@
+{
+  "name": "template-pnpm-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rm": "rm -rf node_modules/ pnpm-lock.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
