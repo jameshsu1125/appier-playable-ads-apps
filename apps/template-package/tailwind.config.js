@@ -20,6 +20,7 @@ export default {
       secondary: '#ff6600',
       tertiary: '#ff0066',
       quaternary: '#00ff00',
+      backgroundColor: '#EEE',
     },
     extend: {},
   },
