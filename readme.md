@@ -42,19 +42,13 @@ This is a general guide for LIFF Web App. Please check the specific app for more
 Install project dependencies:
 
 ```sh
-pnpm install
+pnpm i
 ```
 
 Start the development server:
 
 ```sh
 pnpm dev
-```
-
-Because the HTTPS connection is required by LIFF, you can start the https server by
-
-```sh
-pnpm dev:https
 ```
 
 ## Technical Stacks
