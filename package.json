@@ -6,14 +6,15 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev": "pnpm run -C apps/template-package dev",
-    "build": "pnpm run -C apps/template-package build",
+    "dev": "pnpm run -C apps/monopoly-go dev",
+    "build": "pnpm run -C apps/monopoly-go build",
     "rm": "rm -rf node_modules/ dist/ pnpm-lock.yaml",
     "preview": "vite preview"
   },
   "dependencies": {
     "@common/loading": "workspace:*",
     "@common/trigger": "workspace:*",
+    "@common/preloader": "workspace:*",
     "preact": "^10.24.3"
   },
   "devDependencies": {
